@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>isConfidentialNamePopulated__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>JV - For Account Sharing Rule, will update field if Confidential Name != Null</description>
+    <externalId>false</externalId>
+    <label>isConfidentialNamePopulated</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

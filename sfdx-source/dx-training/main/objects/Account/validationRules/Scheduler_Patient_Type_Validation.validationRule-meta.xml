@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Scheduler_Patient_Type_Validation</fullName>
+    <active>true</active>
+    <description>Validation rule to allow Scheduler profile to only select Prisoner as a Patient Type</description>
+    <errorConditionFormula>AND(
+$Profile.Id = &quot;00e5C000000Qkl1&quot;,
+NOT(ISBLANK(TEXT(Patient_Type_Youreka__c))),
+TEXT(Patient_Type_Youreka__c)&lt;&gt;&quot;Prisoner&quot;
+)</errorConditionFormula>
+    <errorMessage>Patient Type can only be set to Prisoner on the registration form</errorMessage>
+</ValidationRule>

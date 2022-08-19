@@ -1,0 +1,26 @@
+{
+    "packageDirectories": [
+        {
+            "path": "sfdx-source/dx-training",
+            "default": true,
+            "package": "dx-training",
+            "versionName": "ver 1.0",
+            "versionNumber": "1.0.0.NEXT"
+        },
+        {
+            "path": "sfdx-source/unpackaged",
+            "default": false
+        },
+        {
+            "path": "sfdx-source/untracked",
+            "default": false
+        }
+    ],
+    "namespace": "",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "54.0",
+    "packageAliases": {
+        "dx-training": "0Ho3a000000GmblCAC",
+        "dx-training@1.0.0-0": "04t3a000000Ld65AAC"
+    }
+}

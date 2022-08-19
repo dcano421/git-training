@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Gender_Identity_Youreka__c</fullName>
+    <externalId>false</externalId>
+    <label>Gender Identity Youreka</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Female</fullName>
+                <default>false</default>
+                <label>Female</label>
+            </value>
+            <value>
+                <fullName>Male</fullName>
+                <default>false</default>
+                <label>Male</label>
+            </value>
+            <value>
+                <fullName>Transgender Female/Male-to-Female</fullName>
+                <default>false</default>
+                <label>Transgender Female/Male-to-Female</label>
+            </value>
+            <value>
+                <fullName>Transgender Male/Female-to-Male</fullName>
+                <default>false</default>
+                <label>Transgender Male/Female-to-Male</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Choose not to disclose</fullName>
+                <default>false</default>
+                <label>Choose not to disclose</label>
+            </value>
+            <value>
+                <fullName>Gender Fluid/Queer</fullName>
+                <default>false</default>
+                <label>Gender Fluid/Queer</label>
+            </value>
+            <value>
+                <fullName>Non Binary</fullName>
+                <default>false</default>
+                <label>Non Binary</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

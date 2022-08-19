@@ -1,0 +1,31 @@
+# These are some examples of commonly ignored file patterns.
+# You should customize this list as applicable to your project.
+# Learn more about .gitignore:
+#     https://www.atlassian.com/git/tutorials/saving-changes/gitignore
+
+# General Project related
+.DS_Store
+target/
+temp/
+/deploy/*
+/debug/
+**/dep-dir.txt
+*.prefs
+build.properties
+.execanon
+
+# VSCode IDE Related
+.vscode/
+.history/
+.sfdx/
+.sf/
+
+# SFDX Related
+sfdx-source/untracked/*
+!sfdx-source/untracked/README.md
+sfdx-source/dx-training/main/default
+
+# NPM Related
+package.json
+/node_modules
+package-lock.json

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Break_the_Glass__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( OR(FYI_Flag__c = &quot;Patient Hard Lock (1016)&quot;,FYI_Flag__c = &quot;Encounter Hard Lock (1017)&quot;), &quot;Hard Lock&quot;, IF( OR(ISPICKVAL(PatientType__c , &quot;VIP&quot;) , NOT( ISBLANK(Confidential_Name__c) ) ) , &quot;Break the Glass&quot;, &quot;None&quot;) )</formula>
+    <label>Break the Glass</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

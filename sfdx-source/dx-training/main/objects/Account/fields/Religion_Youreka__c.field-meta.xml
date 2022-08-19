@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Religion_Youreka__c</fullName>
+    <externalId>false</externalId>
+    <label>Religion Youreka</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Catholic</fullName>
+                <default>false</default>
+                <label>Catholic</label>
+            </value>
+            <value>
+                <fullName>Presbyterian</fullName>
+                <default>false</default>
+                <label>Presbyterian</label>
+            </value>
+            <value>
+                <fullName>Lutheran</fullName>
+                <default>false</default>
+                <label>Lutheran</label>
+            </value>
+            <value>
+                <fullName>Buddhist</fullName>
+                <default>false</default>
+                <label>Buddhist</label>
+            </value>
+            <value>
+                <fullName>Jewish</fullName>
+                <default>false</default>
+                <label>Jewish</label>
+            </value>
+            <value>
+                <fullName>Episcopal</fullName>
+                <default>false</default>
+                <label>Episcopal</label>
+            </value>
+            <value>
+                <fullName>Baptist</fullName>
+                <default>false</default>
+                <label>Baptist</label>
+            </value>
+            <value>
+                <fullName>Mormon-Latter Day Saints</fullName>
+                <default>false</default>
+                <label>Mormon-Latter Day Saints</label>
+            </value>
+            <value>
+                <fullName>Christian Science</fullName>
+                <default>false</default>
+                <label>Christian Science</label>
+            </value>
+            <value>
+                <fullName>Islam-Muslim</fullName>
+                <default>false</default>
+                <label>Islam-Muslim</label>
+            </value>
+            <value>
+                <fullName>Hindu</fullName>
+                <default>false</default>
+                <label>Hindu</label>
+            </value>
+            <value>
+                <fullName>Greek Orthodox</fullName>
+                <default>false</default>
+                <label>Greek Orthodox</label>
+            </value>
+            <value>
+                <fullName>Jehovah&apos;s Witness</fullName>
+                <default>false</default>
+                <label>Jehovah&apos;s Witness</label>
+            </value>
+            <value>
+                <fullName>Mennonite</fullName>
+                <default>false</default>
+                <label>Mennonite</label>
+            </value>
+            <value>
+                <fullName>Methodist</fullName>
+                <default>false</default>
+                <label>Methodist</label>
+            </value>
+            <value>
+                <fullName>Nazarene</fullName>
+                <default>false</default>
+                <label>Nazarene</label>
+            </value>
+            <value>
+                <fullName>Non-Denominational</fullName>
+                <default>false</default>
+                <label>Non-Denominational</label>
+            </value>
+            <value>
+                <fullName>Pentecostal</fullName>
+                <default>false</default>
+                <label>Pentecostal</label>
+            </value>
+            <value>
+                <fullName>Protestant</fullName>
+                <default>false</default>
+                <label>Protestant</label>
+            </value>
+            <value>
+                <fullName>Quaker</fullName>
+                <default>false</default>
+                <label>Quaker</label>
+            </value>
+            <value>
+                <fullName>Seventh Day Adventist</fullName>
+                <default>false</default>
+                <label>Seventh Day Adventist</label>
+            </value>
+            <value>
+                <fullName>Unitarian Universalist</fullName>
+                <default>false</default>
+                <label>Unitarian Universalist</label>
+            </value>
+            <value>
+                <fullName>Sikhism</fullName>
+                <default>false</default>
+                <label>Sikhism</label>
+            </value>
+            <value>
+                <fullName>Zoroastrian</fullName>
+                <default>false</default>
+                <label>Zoroastrian</label>
+            </value>
+            <value>
+                <fullName>Christian</fullName>
+                <default>false</default>
+                <label>Christian</label>
+            </value>
+            <value>
+                <fullName>Unknown-Patient Declined</fullName>
+                <default>false</default>
+                <label>Unknown-Patient Declined</label>
+            </value>
+            <value>
+                <fullName>Jainism</fullName>
+                <default>false</default>
+                <label>Jainism</label>
+            </value>
+            <value>
+                <fullName>African Methodist Episcopal</fullName>
+                <default>false</default>
+                <label>African Methodist Episcopal</label>
+            </value>
+            <value>
+                <fullName>Assembly of God</fullName>
+                <default>false</default>
+                <label>Assembly of God</label>
+            </value>
+            <value>
+                <fullName>BAHAI</fullName>
+                <default>false</default>
+                <label>BAHAI</label>
+            </value>
+            <value>
+                <fullName>Church of the Brethren</fullName>
+                <default>false</default>
+                <label>Church of the Brethren</label>
+            </value>
+            <value>
+                <fullName>Christian Disciples of Christ</fullName>
+                <default>false</default>
+                <label>Christian Disciples of Christ</label>
+            </value>
+            <value>
+                <fullName>Church of God in Christ</fullName>
+                <default>false</default>
+                <label>Church of God in Christ</label>
+            </value>
+            <value>
+                <fullName>Christian Church</fullName>
+                <default>false</default>
+                <label>Christian Church</label>
+            </value>
+            <value>
+                <fullName>Church of God of Prophecy</fullName>
+                <default>false</default>
+                <label>Church of God of Prophecy</label>
+            </value>
+            <value>
+                <fullName>Christian Missionary Alliance</fullName>
+                <default>false</default>
+                <label>Christian Missionary Alliance</label>
+            </value>
+            <value>
+                <fullName>Christian Methodist Episcopal</fullName>
+                <default>false</default>
+                <label>Christian Methodist Episcopal</label>
+            </value>
+            <value>
+                <fullName>Church of Christ</fullName>
+                <default>false</default>
+                <label>Church of Christ</label>
+            </value>
+            <value>
+                <fullName>Church of God</fullName>
+                <default>false</default>
+                <label>Church of God</label>
+            </value>
+            <value>
+                <fullName>Congregational</fullName>
+                <default>false</default>
+                <label>Congregational</label>
+            </value>
+            <value>
+                <fullName>Holiness</fullName>
+                <default>false</default>
+                <label>Holiness</label>
+            </value>
+            <value>
+                <fullName>Moravian</fullName>
+                <default>false</default>
+                <label>Moravian</label>
+            </value>
+            <value>
+                <fullName>Native American Traditional</fullName>
+                <default>false</default>
+                <label>Native American Traditional</label>
+            </value>
+            <value>
+                <fullName>Salvation Army</fullName>
+                <default>false</default>
+                <label>Salvation Army</label>
+            </value>
+            <value>
+                <fullName>United Church of Christ</fullName>
+                <default>false</default>
+                <label>United Church of Christ</label>
+            </value>
+            <value>
+                <fullName>Wiccan</fullName>
+                <default>false</default>
+                <label>Wiccan</label>
+            </value>
+            <value>
+                <fullName>Wesleyan Methodist Church</fullName>
+                <default>false</default>
+                <label>Wesleyan Methodist Church</label>
+            </value>
+            <value>
+                <fullName>Christian Evangelical</fullName>
+                <default>false</default>
+                <label>Christian Evangelical</label>
+            </value>
+            <value>
+                <fullName>Duke Congregation</fullName>
+                <default>false</default>
+                <label>Duke Congregation</label>
+            </value>
+            <value>
+                <fullName>Atheist</fullName>
+                <default>false</default>
+                <label>Atheist</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <label>None</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,36 @@
+image: synapticap/standard-sfdx-image
+pipelines:
+  default:
+    - step:
+        name: Deploy to build sandbox (sprint3)
+        deployment: test
+        # trigger: manual  # Uncomment to make this a manual deployment.
+        script:
+          - echo "Deploying to test environment"
+        after-script:
+          #- cat /root/.npm_logs/*
+          #- JVAccount
+
+  branches:
+    develop:
+      - step:
+          name: Deploying to DEVELOP (DEV)
+          deployment: test
+          script:
+            - echo "Deploying to DEVELOP"
+            - npm update --global sfdx-cli
+            - sfdx force:auth:sfdxurl:store -f build/develop/sfdxurlstore.txt -s -a $DEV_USERNAME 
+            - sfdx force:org:list
+            - sfdx config:set defaultusername=$DEV_USERNAME
+            - sfdx force:source:deploy -p sfdx-source/duke-dhas -l RunLocalTests --ignorewarnings -w 120 --verbose   
+      - step:
+          name: Deploying to UAT
+          deployment: production
+          trigger: manual
+          script:
+            - echo "Deploying to UAT"
+            - npm update --global sfdx-cli
+            - sfdx force:auth:sfdxurl:store -f build/uat/sfdxurlstore.txt -s -a $UAT_USERNAME 
+            - sfdx force:org:list
+            - sfdx config:set defaultusername=$UAT_USERNAME
+            - sfdx force:source:deploy -p sfdx-source/duke-dhas -l RunLocalTests --ignorewarnings -w 120 --verbose

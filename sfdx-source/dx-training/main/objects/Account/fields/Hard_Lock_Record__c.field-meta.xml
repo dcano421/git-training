@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Hard_Lock_Record__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Hard Lock Record so no one can access it.</description>
+    <externalId>false</externalId>
+    <label>Hard Lock Record?</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

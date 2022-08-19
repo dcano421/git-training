@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Patient_Type_Youreka__c</fullName>
+    <externalId>false</externalId>
+    <label>Patient Type Youreka</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Anonymous</fullName>
+                <default>false</default>
+                <label>Anonymous</label>
+            </value>
+            <value>
+                <fullName>Confidential</fullName>
+                <default>false</default>
+                <label>Confidential</label>
+            </value>
+            <value>
+                <fullName>Employee</fullName>
+                <default>false</default>
+                <label>Employee</label>
+            </value>
+            <value>
+                <fullName>Organ (Transplant)</fullName>
+                <default>false</default>
+                <label>Organ (Transplant)</label>
+            </value>
+            <value>
+                <fullName>Prisoner</fullName>
+                <default>false</default>
+                <label>Prisoner</label>
+            </value>
+            <value>
+                <fullName>Research</fullName>
+                <default>false</default>
+                <label>Research</label>
+            </value>
+            <value>
+                <fullName>Verified with no Medicare</fullName>
+                <default>false</default>
+                <label>Verified with no Medicare</label>
+            </value>
+            <value>
+                <fullName>VIP</fullName>
+                <default>false</default>
+                <label>VIP</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
