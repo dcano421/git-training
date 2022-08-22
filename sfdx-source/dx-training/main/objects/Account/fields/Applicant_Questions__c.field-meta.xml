@@ -7,5 +7,5 @@
     <trackFeedHistory>true</trackFeedHistory>
     <trackHistory>false</trackHistory>
     <type>LongTextArea</type>
-    <visibleLines>9</visibleLines>
+    <visibleLines>7</visibleLines>
 </CustomField>
