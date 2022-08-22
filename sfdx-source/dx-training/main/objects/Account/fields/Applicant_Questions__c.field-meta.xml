@@ -2,10 +2,10 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Applicant_Questions__c</fullName>
     <externalId>false</externalId>
-    <label>Applicant Updated Ques</label>
-    <length>4500</length>
+    <label>Applicant New Questions</label>
+    <length>2000</length>
     <trackFeedHistory>false</trackFeedHistory>
-    <trackHistory>false</trackHistory>
+    <trackHistory>true</trackHistory>
     <type>LongTextArea</type>
     <visibleLines>9</visibleLines>
 </CustomField>
