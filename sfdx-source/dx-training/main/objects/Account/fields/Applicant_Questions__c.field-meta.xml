@@ -3,9 +3,9 @@
     <fullName>Applicant_Questions__c</fullName>
     <externalId>false</externalId>
     <label>Applicant New Questions</label>
-    <length>2000</length>
+    <length>4000</length>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>true</trackHistory>
     <type>LongTextArea</type>
-    <visibleLines>5</visibleLines>
+    <visibleLines>7</visibleLines>
 </CustomField>
